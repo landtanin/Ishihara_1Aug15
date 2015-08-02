@@ -4,6 +4,8 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title">โจทย์ ตาบอดสี</string>
+    <string name="title_activity_show_score">ShowScoreActivity</string>
+    <string name="show">คะแนนของคุณ</string>
 
 
 </resources>
