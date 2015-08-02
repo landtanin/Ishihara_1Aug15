@@ -4,8 +4,18 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+
+    //Explicit ประกาศตัวแปร
+    private TextView questionTextView;
+    private ImageView ishiharaImageView;
+
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
