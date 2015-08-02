@@ -96,6 +96,8 @@ public class MainActivity extends AppCompatActivity {
             scoreAnInt++;
         }
 
+        choiceRadioGroup.clearCheck();
+
     }   // checkScore
 
     private void changeView() {

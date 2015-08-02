@@ -1,9 +1,11 @@
 package appewtc.masterung.ishihara;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.TextView;
 
 public class ShowScoreActivity extends AppCompatActivity {
@@ -23,6 +25,16 @@ public class ShowScoreActivity extends AppCompatActivity {
         showScore();
 
     }   // Main Method
+
+    public void play(View view) {
+        startActivity(new Intent(this, MainActivity.class));
+    }
+
+    public void exit(View view) {
+        finish();
+    }
+
+
 
     private void showScore() {
 
